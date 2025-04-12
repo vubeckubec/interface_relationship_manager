@@ -1,6 +1,6 @@
-# Interface Splitting Manager
+# Interface Relationship Manager
 
-**Interface Splitting Manager** is a plugin for [NetBox](https://github.com/netbox-community/netbox) that allows you to split a single physical or virtual interface into two separate logical interfaces for RX and TX traffic, while retaining the original interface as the "main" interface. This plugin is useful for scenarios where you need granular control or monitoring of inbound and outbound traffic on an interface.
+**Interface Relationship Manager** is a plugin for [NetBox](https://github.com/netbox-community/netbox) that allows you to split a single physical or virtual interface into two separate logical interfaces for RX and TX traffic, while retaining the original interface as the "main" interface. This plugin is useful for scenarios where you need granular control or monitoring of inbound and outbound traffic on an interface.
 
 ## Features
 - **Easy interface splitting**: Split any interface into separate RX and TX interfaces with a single click.
@@ -19,19 +19,19 @@ The plugin is available on PyPI, so you can install it easily with pip.
 
 ### Step 1: Install using pip
 ```bash
-pip install interface_splitting_manager
+pip install interface_relationship_manager
 ```
 
 ### Step 2: Add the plugin into PLUGINS array in configuration.py
 ```bash
 PLUGINS = [
-    'interface_splitting_manager',
+    'interface_relationship_manager',
     # Other plugins...
 ]
 ```
 ### Step 3: Apply migrations(don't forget activating virtual enviroment)
 ```bash
-python manage.py migrate interface_splitting_manager
+python manage.py migrate interface_relationship_manager
 ```
 ### Step 4: Run netbox(for example)
 ```bash
@@ -68,6 +68,9 @@ interface_splitting_manager/
 ```
 
 ## Changelog
+### v1.1
+- fixed README
+
 ### v1.0
 - Initial release with basic interface splitting and relationship tracking.
 - Created a dedicated InterfaceRelationship model to keep track of main, RX, and TX interfaces.
@@ -89,4 +92,5 @@ interface_splitting_manager/
 Viktor Kubec  
 BUT FIT Brno student  
 MIT License  
-GitHub: [vubeckubec/Module_Swap](https://github.com/vubeckubec/Module_Swap)
+GitHub: [vubeckubec/interface_relationship_manager](https://github.com/vubeckubec/interface_relationship_manager)
+PyPi: [interface_relationship_manager](https://pypi.org/project/interface-relationship-manager/)
