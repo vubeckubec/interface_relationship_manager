@@ -68,6 +68,12 @@ interface_splitting_manager/
 ```
 
 ## Changelog
+### v1.3
+- actually added template - wrong name in toml file
+
+### v1.2
+- added template that i forgot to upload
+
 ### v1.1
 - fixed README
 
