@@ -93,4 +93,4 @@ Viktor Kubec
 BUT FIT Brno student  
 MIT License  
 GitHub: [vubeckubec/interface_relationship_manager](https://github.com/vubeckubec/interface_relationship_manager)
-PyPi: [interface_relationship_manager](https://pypi.org/project/interface-relationship-manager/)
+PyPi: [interface_relationship_manager](https://pypi.org/project/interface-relationship-manager/)  
