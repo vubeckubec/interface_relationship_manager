@@ -68,6 +68,9 @@ interface_splitting_manager/
 ```
 
 ## Changelog
+### v1.3.1
+- added headers into each file
+
 ### v1.3
 - actually added template - wrong name in toml file
 
