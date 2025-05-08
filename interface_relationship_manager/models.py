@@ -1,4 +1,9 @@
 """
+project: IBT24/25, xkubec03
+author: Viktor Kubec
+file: models.py
+
+brief:
 This file defines the InterfaceRelationship model used in the Interface Relationship Manager plugin.
 The model allows linking one main interface to separate receive (rx) and transmit (tx) interfaces.
 """

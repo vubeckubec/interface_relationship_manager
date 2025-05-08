@@ -1,4 +1,9 @@
 """
+project: IBT24/25, xkubec03
+author: Viktor Kubec
+file: views.py
+
+brief:
 This module provides a Django view to handle selecting a device and interface
 for splitting into separate RX and TX interfaces, utilizing the split_interface utility.
 """

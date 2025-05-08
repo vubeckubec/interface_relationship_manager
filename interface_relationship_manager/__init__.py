@@ -1,4 +1,9 @@
 """
+project: IBT24/25, xkubec03
+author: Viktor Kubec
+file: __init__.py
+
+brief:
 This file defines the configuration for the NetBox plugin named "Interface Relationship Manager".
 The plugin is designed to manage relationships between main, receive (rx), 
 and transmit (tx) interfaces.

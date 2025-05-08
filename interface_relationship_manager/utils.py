@@ -1,4 +1,9 @@
 """
+project: IBT24/25, xkubec03
+author: Viktor Kubec
+file: utils.py
+
+brief:
 This module provides a utility function for splitting a single network interface
 into separate RX and TX interfaces in a NetBox-based environment.
 """
